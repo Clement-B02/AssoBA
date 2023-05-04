@@ -1,0 +1,44 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+}
+body{
+    background: #e70505; 
+    height: 100%;
+    width: 100%;
+}
+/* -------------------NAVBAR ---------------------  */
+nav ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list-articles,
+.list-group{
+    padding-top: 90px;
+}
+
+@media screen and (min-width:992px){
+    nav ul li{
+        cursor: pointer; 
+        margin: 1.5vw;
+    }
+    .d-inline-block{
+        margin-left: 2vw;
+    }
+    .navbar-brand{
+        margin: 0 2vw;
+    }
+    .card{
+        min-width: fit-content;
+    
+    }
+}
+@media screen and (max-width:992px){
+    .list-group{
+        display: none;
+    }
+}
