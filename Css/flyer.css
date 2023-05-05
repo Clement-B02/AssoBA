@@ -1,40 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Patrick+Hand&display=swap');
+
 *{
     list-style: none;
     text-decoration: none;
     text-transform: none;
+    margin: 0;
+    padding: 0;
 }
 body{
-    background: #e70505; 
+    background-image: url(/Assets/Pictures/ImageP.jpg); 
+    background-size: cover;
     height: 100%;
     width: 100%;
-}
-/* -------------------NAVBAR ---------------------  */
-nav ul li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Patrick Hand', cursive;
 
 }
-.navbar-brand{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* ------------ FONT FAMILY -----------------  */
+h5,
+#marque,
+#faq{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
 }
+#event{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+p,
+#plus-info{    
+    font-size: 1rem;
+}
+.text-muted{
+    font-size: 0.7rem;
+    font-style: italic;
+}
+#action{
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* ------------------- IMAGES -----------------  */
+#logo{
+    width: 60px;
+    height: 45px;
+}
+
+/* -------------------NAVBAR ---------------------  */
+nav ul li{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.2rem;
+
+}
+.nav-link{
+    background-image: linear-gradient(
+        to right,
+        #aa0707,
+        #b60606 50%,
+        #fff 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 5px 0;
+      position: relative;
+      -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+}
+.nav-link::before{
+    content: '';
+    background: #ce0505;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover{
+    background-position: 0;
+}
+.nav-link:hover::before {
+    width:100%;
+  }
 .list-articles,
 .list-group{
     padding-top: 90px;
 }
 
+/* -------------- MEDIA QUERIES ------------------------  */
 @media screen and (min-width:992px){
-    nav ul li{
-        cursor: pointer; 
-        margin: 1.5vw;
+    nav ul li{ 
+        margin: 0 2.3vw;
     }
     .d-inline-block{
-        margin-left: 2vw;
+        margin-left: 2.5vw;
     }
     .navbar-brand{
-        margin: 0 2vw;
+        margin: 0 2.5vw;
     }
     .card{
         min-width: fit-content;
-    
+    }
+    #action{
+        min-height: 580px;
+        max-height: 950px;
+    }
+    #help{
+        min-height: 620px;
+        max-height: 950px;
     }
 }
 @media screen and (max-width:992px){

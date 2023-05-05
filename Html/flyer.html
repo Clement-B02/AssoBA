@@ -22,16 +22,15 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" 
-    style="font-size: 18px;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" 
-        href="#">
+        href="#" 
+        id="marque">
           <img src="/Assets/_1.png" 
-          width="60" 
-          height="45" 
+          id="logo"
           alt="Logo de l'association" 
-          class="d-inline-block align-middle mr-2 m-2">Book'Access</a>
+          class="d-inline-block align-middle mx-2 ">Book'Access</a>
         <button class="navbar-toggler" 
         type="button" 
         data-bs-toggle="collapse" 
@@ -66,14 +65,16 @@
               href="#">Nous contacter</a>
             </li>
           </ul>
-          <div class="d-inline-block float-end" >
-            <button type="button" 
-            class="btn btn-danger">
-              <i class="bi bi-facebook"></i></button>
-            <button class="btn btn-danger">
-              <i class="bi bi-instagram"></i></i></button>
-            <button class="btn btn-danger">
-              <i class="bi bi-twitter"></i></button>
+          <div class="d-inline-block float-end">
+            <a href="" class="me-4 text-danger">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="" class="me-4 text-danger">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-danger">
+              <i class="bi bi-instagram"></i>
+            </a>
           </div> 
         </div>
       </div>
@@ -87,74 +88,84 @@
           class="list-group-item list-group-item-action bg-dark text-light" 
           aria-current="true">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1 text-danger">Club de lecture</h5>
+              <h5 class="mb-1 text-danger" 
+              id="event">Club de lecture</h5>
               <small class="text-muted">Il y a 8H.</small>
             </div>
             <p class="mb-1">Organisation d'un club de lecture pour les adultes et les enfants, où chacun aurait 
               l'occasion de partager ses impressions sur un livre qu'il a lu et d'en discuter avec d'autres passionnés 
               de lecture.</p>
-              <small class="text-muted">Ville / adresse / 1ier Mercredi de chaques mois.</small>
+              <small class="text-muted">Nangis-77370 / XX Bd George Pompidou / Tout les mercredi.</small>
           </a>
           <a href="#" class="list-group-item list-group-item-action bg-dark text-light">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1 text-danger">Ateliers d'écriture créative</h5>
+              <h5 class="mb-1 text-danger" 
+              id="event">Ateliers d'écriture créative</h5>
               <small class="text-muted">Il y a 2j.</small>
             </div>
             <p class="mb-1">Organisation d'ateliers d'écriture créative pour les enfants et les adultes, où chacun 
               aurait la possibilité d'explorer sa créativité et d'apprendre à écrire des histoires captivantes.</p>
-            <small class="text-muted">Ville / adresse / 1ier Mercredi de chaques mois.</small>
+            <small class="text-muted">Provins-77160 / XX Rue des Marais / Samedi 03 juin 2023.</small>
           </a>
           <a href="#" class="list-group-item list-group-item-action bg-dark text-light">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1 text-danger">Expositions de livres</h5>
+              <h5 class="mb-1 text-danger" 
+              id="event">Expositions de livres</h5>
               <small class="text-muted">Il y a 3j.</small>
             </div>
             <p class="mb-1">Organisation d'expositions de livres thématiques pour mettre en valeur des genres 
               littéraires spécifiques ou des auteurs locaux. Les participants pourront explorer les expositions 
               à leur propre rythme et découvrir de nouveaux livres à lire</p>
-              <small class="text-muted">Ville / adresse / 1ier Mercredi de chaques mois.</small>
+              <small class="text-muted">Grandpuits-Bailly-Carrois-77720 / XX Rue de la Valée aux Prieur 
+                / Samedi 20 juin 2023.</small>
           </a>
           <a href="#" class="list-group-item list-group-item-action bg-dark text-light">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1 text-danger">Conférences d'auteurs</h5>
+              <h5 class="mb-1 text-danger" 
+              id="event">Conférences d'auteurs</h5>
               <small class="text-muted">Il y a 5j.</small>
             </div>
             <p class="mb-1">Invitation des auteurs reconnus pour donner des conférences sur leur travail et leur 
               processus d'écriture, offrant ainsi aux participants une opportunité unique d'entendre de première 
               main les histoires et les expériences qui ont inspiré leurs livres. Les participants pourront 
               également poser des questions et discuter avec les auteurs.</p>
-              <small class="text-muted">Ville / adresse / 1ier Mercredi de chaques mois.</small>
+              <small class="text-muted">Grandpuits-Bailly-Carrois-77720 / XX Rue de la Valée aux Prieur 
+                / Samedi 20 juin 2023.</small>
           </a>
           <a href="#" class="list-group-item list-group-item-action bg-dark text-light">
           <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1 text-danger">Projection de films</h5>
+            <h5 class="mb-1 text-danger" 
+            id="event">Projection de films</h5>
             <small class="text-muted">Il y a 5j.</small>
           </div>
           <p class="mb-1">Organisation d'une projections de films basés sur des livres ou des adaptations de pièces 
             de théâtre. Les participants pourront discuter de la comparaison entre le livre et le film après la 
             projection.</p>
-            <small class="text-muted">Ville / adresse / 1ier Mercredi de chaques mois.</small>
+            <small class="text-muted">Nangis-77370 / XX Bd George Pompidou / Mercredi 19 juillet 2023 </small>
           </a>
           <a href="#" 
           class="list-group-item list-group-item-action bg-dark text-light">
           <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1 text-danger">Concours d'écriture</h5>
+            <h5 class="mb-1 text-danger" 
+            id="event">Concours d'écriture</h5>
             <small class="text-muted">Il y a 2sm.</small>
           </div>
           <p class="mb-1">Organisation d'un concours d'écriture pour les enfants et les adultes, avec des prix pour 
             les gagnants. Les participants pourront soumettre des histoires courtes, des poèmes ou des essais sur 
             des thèmes spécifiques. Ces concours pourraient être une excellente occasion de stimuler la créativité 
             et de mettre en valeur les talents d'écriture des membres de l'association.</p>
-            <small class="text-muted">Ville / adresse / 1ier Mercredi de chaques mois.</small>
+            <small class="text-muted">Nangis-77370 / XX Cour Emile Zola / Cinéma La Bergerie 
+              / Tout les jeudi à 18h.</small>
           </a>
         </div>    
       </aside>
       
       <section class="list-articles mt-3 text-center col-12 col-lg-9">
         <div class="row">
-            <article class="col-12 col-md-12 col-xl-6 p-2">
-                <div class="card shadow bg-dark text-light">
-                    <img src="https://picsum.photos/300/150" 
+            <article class="col-12 col-md-12 col-xl-6 pt-2">
+                <div class="card shadow bg-dark text-light" 
+                id="action">
+                    <img src="/Assets/Pictures/livrePapier.jpg" 
                     class="card-img-top" 
                     alt="...">
                     <div class="card-body">
@@ -170,8 +181,9 @@
                     </div>
                 </div>
             </article>
-            <article class="col-12 col-md-12 col-xl-6 p-2">
-              <div class="card col-12 col-xl-6 p-2 bg-dark text-light">
+            <article class="col-12 col-md-12 col-xl-6 pt-2">
+              <div class="card col-12 col-xl-6 py-2 bg-dark text-light" 
+              id="action">
                 <div class="card-body">
                   <h5 class="card-title text-danger">Nos actions</h5>
                   <h6 class="card-subtitle mb-2 text-muted">sous-titre ???</h6>
@@ -184,22 +196,23 @@
                   <a href="#" class="btn btn-danger m-3">En savoir plus</a>
                   <a href="#" class="btn btn-danger m-3">Participer</a>
                   <div>
-                    <img src="https://picsum.photos/100/100" 
-                    class="rounded-circle float-start col-3 border border-danger mt-3" 
+                    <img src="/Assets/Pictures/action3.jpg" 
+                    class="rounded-circle float-start col-3 border border-light border border-3 m-3" 
                     alt="">
-                    <img src="https://picsum.photos/100/100" 
-                    class="rounded-circle col-3 border border-danger mt-3" 
+                    <img src="/Assets/Pictures/action1.jpg" 
+                    class="rounded-circle col-3 border border-light border border-3 m-3" 
                     alt="">
-                    <img src="https://picsum.photos/100/100" 
-                    class="rounded-circle float-end col-3 border border-danger mt-3" 
+                    <img src="/Assets/Pictures/action2.jpg" 
+                    class="rounded-circle float-end col-3 border border-light border border-3 m-3" 
                     alt="">
                   </div>
                 </div>
               </div>
           </article>
-          <article class="col-12 col-md-12 col-xl-4 p-2">
-            <div class="card shadow bg-dark text-light">
-                <img src="https://picsum.photos/300/150" 
+          <article class="col-12 col-xl-4 pt-2">
+            <div class="card shadow bg-dark text-light"
+            id="help">
+                <img src="/Assets/Pictures/ambassadrice.jpg" 
                 class="card-img-top" 
                 alt="...">
                 <div class="card-body">
@@ -219,8 +232,10 @@
                     aria-controls="collapseExample">
                     <i class="bi bi-arrow-down-circle-fill"></i> En savoir plus</a>
                   </p>
-                  <div class="collapse" id="collapseExample">
-                    <div class="card card-body bg-dark text-light">
+                  <div class="collapse" 
+                  id="collapseExample">
+                    <div class="card card-body bg-dark text-light" 
+                    id="plus-info">
                       En devenant ambassadeur de notre association, vous rejoindrez une communauté dynamique et 
                       passionnée qui travaille ensemble pour promouvoir la lecture et l'écriture. Rejoignez-nous 
                       aujourd'hui pour faire partie de cette aventure enrichissante et inspirante !
@@ -232,9 +247,10 @@
                 </div>
             </div>
         </article>
-        <article class="col-12 col-md-12 col-xl-4 p-2">
-          <div class="card shadow bg-dark text-light">
-              <img src="https://picsum.photos/300/150" 
+        <article class="col-12 col-xl-4 pt-2">
+          <div class="card shadow bg-dark text-light"
+          id="help">
+              <img src="/Assets/Pictures/dons.jpg" 
               class="card-img-top" 
               alt="...">
               <div class="card-body">
@@ -254,8 +270,9 @@
               </div>
           </div>
       </article>
-      <article class="col-12 col-md-12 col-xl-4 p-2">
-        <div class="card bg-dark text-light">
+      <article class="col-12 col-xl-4 pt-2">
+        <div class="card bg-dark text-light" 
+        id="help">
           <div class="card-header bold">
             La région à nos côtés
           </div>
@@ -268,19 +285,19 @@
               organiser des conférences avec des auteurs renommés, et même créer des bibliothèques communautaires. 
               Leurs contributions ont un impact significatif sur notre capacité à réaliser notre mission.</p>
               <div>
-                <img src="https://picsum.photos/100/100" 
-                class="rounded col-4 border border-danger m-3" 
+                <img src="/Assets/Sponsor/idf.png" 
+                class="rounded col-4 border border-light border border-3 m-3" 
                 alt="">
-                <img src="https://picsum.photos/100/100" 
-                class=" rounded col-4 border border-danger m-3" 
+                <img src="/Assets/Sponsor/lbrie.png" 
+                class=" rounded col-4 border border-light border border-3 m-3" 
                 alt="">
               </div>
           </div>
         </div>
     </article>
-    <article class="col-12 p-2">
+    <article class="col-12 pt-2">
       <div class="card bg-dark text-light">
-        <div class="card-header text-danger">
+        <div class="card-header text-danger" id="faq">
           <i class="bi bi-question-square-fill"></i>
            FAQ : Foire aux questions
         </div>
@@ -430,26 +447,10 @@
   </main>
 
   <footer class="text-center text-lg-start bg-dark text-muted">
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <div class="me-5 d-none d-lg-block">
-        <span>Rester connecté avec nous sur les réseaux sociaux:</span>
-      </div>
-      <div>
-        <a href="" class="me-4 text-danger">
-          <i class="bi bi-facebook"></i>
-        </a>
-        <a href="" class="me-4 text-danger">
-          <i class="bi bi-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-danger">
-          <i class="bi bi-instagram"></i>
-        </a>
-      </div>
-    </section>
-    <section class="mt-3">
+    <section class="mt-3 pt-4">
       <form action="">
-        <div class="row d-flex justify-content-center">
-          <div class="col-auto">
+        <div class="row d-flex mx-2 justify-content-center">
+          <div class="col-12">
             <p class="pt-2">
               <strong>Recevoir nos Newsletter ?</strong>
             </p>
